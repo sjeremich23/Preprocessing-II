@@ -85,7 +85,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 1px solid green;
+  border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -145,6 +145,7 @@ h5 {
 }
 h1 {
   font-size: 4rem;
+  margin: 2% 0;
 }
 h2 {
   font-size: 3.2rem;
@@ -211,6 +212,9 @@ img {
 }
 .home .content-section .img-content img {
   border-radius: 10px;
+}
+.home .header img {
+  border-top: 2px dashed #c0c0c0;
 }
 .home .inverse-content {
   padding-bottom: 30px;
