@@ -1,1 +1,29 @@
 // Navigation Styles here
+.navBar {
+    .flex(space-between, center);
+    font-size: 1.5rem;
+    border-bottom: 2px dashed @navigation-border;
+    padding-bottom: 1%;
+    nav {
+        .flex(space-between, center);
+        width: 100%;
+        max-width: 800px;
+        margin: auto;
+        @media @max500 {
+            width: 100%;
+            flex-direction: column;
+        }
+    }
+    a {
+        color: @font-color;
+        text-decoration: none;
+    }
+
+    .navLinks {
+        .flex(space-evenly, center);
+        width: 40%;
+        @media @max500 {
+            width: 100%;
+        }
+    }
+}
