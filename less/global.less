@@ -10,6 +10,11 @@ html,
 body {
     font-family: "Roboto", sans-serif;
 }
+body {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
 
 h1,
 h2,
@@ -49,4 +54,8 @@ img {
     max-width: 800px;
     width: 100%;
     margin: 0 auto;
+    @media @max500 {
+        flex-direction: column;
+        align-items: center;
+    }
 }
